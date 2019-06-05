@@ -9,6 +9,7 @@ Input: "Mr John Smith ", 13
 Output: "Mr%20John%20Smith"
 
 [Solution]: scan from the end(true length) of char array and shift the characters towards the end(total length) of char array
+ O(n), n= true length
  */
 public class Url {
 		public String urlify(char[] s, int trueLength) {

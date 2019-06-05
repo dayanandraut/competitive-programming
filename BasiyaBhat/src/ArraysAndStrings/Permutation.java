@@ -28,5 +28,12 @@ public class Permutation {
 		
 		return true;
 	}
+	
+	public static void main(String[] args) {
+		Permutation permutation = new Permutation();
+		System.out.println(" abc & bca :"+ permutation.checkPermutation("abc", "bca"));
+		System.out.println(" abcd & bca :"+ permutation.checkPermutation("abcd", "bca"));
+		System.out.println(" abe & bca :"+ permutation.checkPermutation("abc", "bce"));
+	}
 
 }

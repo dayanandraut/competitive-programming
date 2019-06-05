@@ -2,7 +2,7 @@ package ArraysAndStrings;
 /*
  * Implement an algorithm to determine if a string has all unique characters.
  * [Solution -1 ]: for each character, search through the string whether it is found or not . O(n^2)
- * [Solution -2 ]: Scan through the string and check any character is repeated or not.
+ * [Solution -2 ]: Scan through the string and check any character is repeated or not. 
  */
 public class UniqueNess {
 	// implementation of solution - 2
